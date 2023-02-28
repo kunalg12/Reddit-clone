@@ -86,7 +86,7 @@ const SingUp: React.FC = () => {
             borderColor: "blue.500",
           }}
           bg="gray.50"
-        />
+        /> 
         <Input
           required
           type="password"
