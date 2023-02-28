@@ -130,7 +130,7 @@ const SingUp: React.FC = () => {
               }))
             }
           >
-            Log In Button
+            Log In
           </Text>
         </Flex>
       </form>
