@@ -137,4 +137,3 @@ const SingUp: React.FC = () => {
   );
 };
 export default SingUp;
- 
