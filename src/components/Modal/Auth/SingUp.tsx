@@ -110,7 +110,7 @@ const SingUp: React.FC = () => {
           outline: "none",
           bg: "white",
           border: "1px solid",
-          borderColor: "blue.500",
+          borderColor: "blue.600",
         }}
         bg="gray.50"
       />
