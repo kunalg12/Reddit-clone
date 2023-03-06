@@ -3,7 +3,7 @@ import { Input, Button, Flex, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { useSetRecoilState } from "recoil";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
-import { auth } from "@/src/firebase/clientApp";
+import { auth } from "../../../firebase/clientApp";
 
 type SingUpProps = {};
 
@@ -117,9 +117,9 @@ const SingUp: React.FC = () => {
       {error ||
         (userError && (
           <Text color="red" textAlign="center" fontSize="10pt">
-            {error }
+            {error}
           </Text>
-        ))}
+        ))} 
       <Button
         width="100%"
         height="36px"
