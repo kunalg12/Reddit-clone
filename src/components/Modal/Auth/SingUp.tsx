@@ -17,11 +17,11 @@ const SingUp: React.FC = () => {
   const [error, setError] = useState("");
   const [createUserWithEmailAndPassword, user, loading, userError] =
     useCreateUserWithEmailAndPassword(auth);
-
+ 
   // Firebase Logic
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (error) setError("");
+    if (error) setError(""); 
     if (signUpForm.password !== signUpForm.confirmPassword) {
       setError("Password do not match");
       return;
