@@ -100,7 +100,7 @@ const SingUp: React.FC = () => {
           onChange;
         }}
         fontSize="10pt"
-        _placeholder={{ color: "gray.600" }}
+        _placeholder={{ color: "gray.500" }}
         _hover={{
           bg: "white",
           border: "1px solid",
