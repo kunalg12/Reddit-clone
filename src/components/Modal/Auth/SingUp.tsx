@@ -104,7 +104,7 @@ const SingUp: React.FC = () => {
         _hover={{
           bg: "white",
           border: "1px solid",
-          borderColor: "blue.600",
+          borderColor: "blue.500",
         }}
         _focus={{
           outline: "none",
